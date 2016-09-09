@@ -47,6 +47,9 @@ BOARD_USES_QCOM_HARDWARE := true
 # Audio
 BOARD_USES_ALSA_AUDIO := true
 
+#Camera
+TARGET_NEEDS_TEXT_RELOCATIONS := true
+
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 
